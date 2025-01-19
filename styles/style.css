@@ -69,13 +69,14 @@
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .banner-title {
   font-weight: 700;
   font-size: 4rem;
   color: rgb(19, 19, 19);
+  border: 2px solid rgb(69, 236, 3);
 
 }
 
@@ -83,11 +84,13 @@
   font-size: 1rem;
   color: rgb(114, 114, 114);
   /* text-align: center; */
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .banner-image {
   width: 100%;
-  padding-bottom: 45px;
+  /* padding-bottom: 45px; */
+  border: 2px solid rgb(52, 243, 116);
 }
 
 /* MAIN Section style */
@@ -130,7 +133,7 @@ main {
   color: rgb(19, 19, 19);
 }
 
-#features {
+#feature {
   color: rgb(255, 144, 14);
 }
 
@@ -139,6 +142,64 @@ main {
   font-size: 1rem;
   color: rgb(114, 114, 114);
 }
+/* features-section style */
+.features{
+  display: flex;
+  gap: 140px;
+  margin-top: 20px;
+}
+
+.features-title{
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: rgb(19, 19, 19);
+  margin-top: 0px  ;
+  margin-bottom: 0px;
+
+}
+#features-section-title{
+  border-left:5px solid  rgb(255, 144, 14) ;
+  padding-left: 15px;
+}
+.features-title-description{
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(114, 114, 114);
+}
+.features-card{
+  padding: 30px;
+  box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06) ;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+.feature-card-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.ferture-card-description{
+    color: rgb(114, 114, 114);
+}
+.feature-photo{
+  width: 100% ;
+}
+
+.btn-two{
+  padding:45px 42px ;
+  background-color: rgb(255, 144, 14);
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+  border-radius: 8px;
+  border: none;
+}
+#ten{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+
 
 /* <!-- some facts styles --> */
 .some-facts {}
@@ -205,13 +266,21 @@ main {
  .sponsor-company img{
   filter: grayscale(100%);
  }
+ /* footer section */
+ .footer{
+  background-color: rgb(255, 244, 231);
+  text-align: center;
+  
+ }
 
 /* Responsive media query */
 @media screen and (max-width:576px) {
 
   .navbar,
   .nav-links,
-  .teams {
+  .teams ,
+  .features
+  {
     flex-direction: column;
   }
 
@@ -234,6 +303,10 @@ main {
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 10px;
+  }
+  .btn-two{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 
