@@ -7,6 +7,11 @@
   font-style: normal;
 }
 
+
+/* *{
+  margin: 0%;
+} */
+
 /* Shared style */
 .display-flex {
   display: flex;
@@ -26,12 +31,14 @@
 /* header Style */
 .header {
   background-color: rgba(255, 144, 14, 0.1);
+  /* background-color: rgb(224, 208, 60); */
 }
 
 /* nav bar related style */
 .navbar {
   justify-content: space-between;
   align-items: center;
+  /* border: 2px solid blueviolet; */
 }
 
 .brand {
@@ -59,24 +66,26 @@
 
 .navbar,
 .banner {
-  max-width: 1440px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
 /* banner related style */
+
+
 .banner-content {
   max-width: 850px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .banner-title {
   font-weight: 700;
   font-size: 4rem;
   color: rgb(19, 19, 19);
-  border: 2px solid rgb(69, 236, 3);
+  /* border: 2px solid rgb(69, 236, 3); */
 
 }
 
@@ -84,19 +93,22 @@
   font-size: 1rem;
   color: rgb(114, 114, 114);
   /* text-align: center; */
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 
 .banner-image {
   width: 100%;
   /* padding-bottom: 45px; */
   border: 2px solid rgb(52, 243, 116);
+  /* padding: 50px; */
+  /* margin: 50px; */
 }
 
 /* MAIN Section style */
 main {
-  max-width: 1440px;
+  max-width: 1180px;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
 
 .teams {
@@ -199,8 +211,6 @@ main {
   font-weight: 700;
 }
 
-
-
 /* <!-- some facts styles --> */
 .some-facts {}
 
@@ -268,9 +278,14 @@ main {
  }
  /* footer section */
  .footer{
+  max-width: 1180px;
+  margin: auto;
   background-color: rgb(255, 244, 231);
   text-align: center;
   
+ }
+ .footer-description{
+  padding: 15px;
  }
 
 /* Responsive media query */
