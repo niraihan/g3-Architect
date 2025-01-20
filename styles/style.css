@@ -26,6 +26,10 @@
   color: white;
   border: none;
 }
+.btn-one:hover{
+  box-shadow: 8px 12px #125478;
+  transition: .5s ;
+}
 
 
 /* header Style */
@@ -50,6 +54,10 @@
 .nav-links {
   list-style: none;
 
+}
+.nav-link:hover{
+  box-shadow: 8px 12px red;
+  transition: 0.5s;
 }
 
 .nav-item {
@@ -98,8 +106,8 @@
 
 .banner-image {
   width: 100%;
-  /* padding-bottom: 45px; */
-  border: 2px solid rgb(52, 243, 116);
+  padding-bottom: 45px;
+  /* border: 2px solid rgb(52, 243, 116); */
   /* padding: 50px; */
   /* margin: 50px; */
 }
@@ -206,6 +214,11 @@ main {
   border-radius: 8px;
   border: none;
 }
+/* .btn-two:hover{
+  box-shadow: 10px  14px #354978;
+  transition: 0.5s;
+} */
+
 #ten{
   font-size: 4rem;
   font-weight: 700;
@@ -322,6 +335,10 @@ main {
   .btn-two{
     margin-top: 20px;
     margin-left: 20px;
+    padding: 25px;
+  }
+  .banner-image{
+    padding-bottom: 10px;
   }
 }
 
